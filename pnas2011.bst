@@ -693,6 +693,7 @@ FUNCTION {incollection}
 { output.bibitem
   format.authors "author" output.check
   format.date "year" output.check
+  format.title "title" output.check
   format.in.ed.booktitle "title" output.check
   new.sentence
   crossref missing$
